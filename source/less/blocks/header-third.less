@@ -1,0 +1,64 @@
+.header-third {
+	align-items: center;
+	width: 1300px;
+	margin: 0 auto;
+	justify-content: flex-start;
+	padding-top: 50px;
+	padding-bottom: 32px;
+	position: relative;
+}
+
+.header-third__wrap {
+	display: flex;
+}
+  
+.header-third__img {
+	margin-right: 158px;
+}
+
+.header-third__contacts {
+	margin-right: 233px;
+}
+
+.header-third__tel {
+	color:@basic-black;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 500;
+}
+
+.header-third__button {
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 11px;
+	padding-left: 29px;
+	font-weight: 500;
+	line-height: 14px;
+	margin-right: 72px;
+}
+
+.header-third__info {
+	margin-left: 0;
+}
+
+.header-third__toggle {
+	position: absolute;
+	border: none;
+	padding: 0;
+	background-color: transparent;
+
+	&--closed {
+		&::after {
+			content: '';
+			position: absolute;
+			width: 23px;
+			height: 16px;
+			background-image: url('../../img/icon-burger-opened.svg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			top: -9px;
+			left: -57px;
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,64 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 209px;
+  margin-left: 156px;
+}
+
+.info__item {
+  margin: 0;
+
+  &--mark {
+    line-height: 14px;
+    font-weight: 600;
+    position: relative;
+    color: @basic-black;
+    text-align: center;
+  }
+
+  &--mark::before {
+    content: '';
+    width: 17px;
+    height: 21px;
+    top: -4px;
+    left: -27px;
+    position: absolute;
+    background-image: url('../../img/icon-mark.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &--search {
+    width: 46px;
+    height: 46px;
+    background-image: url('../../img/icon-search.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+  }
+
+  &--search:hover {
+    border-radius: 30px;
+    background-color: @basic-red;
+    background-image: url('../../img/icon-search-white.svg');
+    background-repeat: no-repeat;
+  }
+
+  &--notice {
+    width: 18px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('../../img/icon-notice.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &--profile {
+    width: 18px;
+    height: 20px;
+    background-image: url('../../img/icon-profile.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Document</title>
+  <link rel='preload' href='fonts/montserrat.woff2' type='font/woff2' as='font'>
+  <link rel='preload' href='fonts/montserratbold.woff2' type='font/woff2' as='font'>
+  <link rel='stylesheet' href='css/style.min.css'>
+</head>
+<body class='page-body'>
+  <div class='page-body__wrap'>
+    <header class='header'>
+      <div class='header__main header-first active'>
+        <div class='header-first__headline headline'>
+          <p class='headline__item headline__item--question'>Задать вопрос</p>
+          <p class='headline__item headline__item--check'>Проверить состояние заказа</p>
+        </div>
+        <div class='header-first__basic call'>
+          <button type='button' class='header-first__toggle header-first__toggle--closed'></button>
+          <div class='call__contacts contacts'>
+            <a href='tel:+78001003131' class='contacts__tel'> 8 800 100 31 31</a>
+            <p class='contacts__desc'>- по РФ бесплатно</p>
+          </div>
+          <div class='main-nav__wrap main-nav'>
+            <ul class='main-nav__list clear-ul site-list'>
+              <li class='site-list__item'>Наши салоны</li>
+              <li class='site-list__item site-list__item--dropdown'>Онлайн сервисы</li>
+              <li class='site-list__item site-list__item--dropdown'>Услуги</li>
+              <li class='site-list__item site-list__item--dropdown'>Акции</li>
+              <li class='site-list__item'>Сотрудничество</li>
+            </ul>
+            <div class='main-nav__info info'>
+              <a href='#' class='info__item info__item--mark'>Москва</a>
+              <a href='#' class='info__item info__item--search'></a>
+              <a href='#' class='info__item info__item--notice'></a>
+              <a href='#' class='info__item info__item--profile'></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='header__secondary header-additional'>
+        <button type='button' class='header-additional__toggle header-additional__toggle--closed'></button>
+        <div class='header-additional__img'>
+          <img src='img/logo-desktop-mini.png' alt='логотип сайта'>
+        </div>
+        <div class='header-additional__contacts'>
+          <a href='tel:+78001003131' class='header-additional__tel'> 8 800 100 31 31</a>
+        </div>
+        <ul class='header-additional__list additional-list clear-ul'>
+          <li class='additional-list__item'>Кухни</li>
+          <li class='additional-list__item'>Шкафы</li>
+          <li class='additional-list__item'>Ванные</li>
+        </ul>
+        <button type='button' class='header-additional__button button'>Заказать проект</button>
+        <div class='header-additional__data data'>
+          <a href='#' class='data__link data__link--mark'>Москва</a>
+          <a href='#' class='data__link data__link--search'></a>
+          <a href='#' class='data__link data__link--notice'></a>
+          <a href='#' class='data__link data__link--profile'></a>
+        </div>
+      </div>
+      <div class='header__third header-third'>
+        <div class="header-third__wrap">
+          <button type='button' class='header-third__toggle header-third__toggle--closed'></button>
+        <div class='header-third__img'>
+          <img src='img/logo-desktop-mini.png' alt='логотип сайта'>
+        </div>
+        <div class='header-third__contacts contacts'>
+          <a href='tel:+78001003131' class='header-third__tel contacts__tel'> 8 800 100 31 31</a>
+          <p class='contacts__desc'>- по РФ бесплатно</p>
+        </div>
+        <button type='button' class='header-third__button button'>Заказать проект</button>
+        <div class='header-third__info info'>
+          <a href='#' class='info__item info__item--mark'>Москва</a>
+          <a href='#' class='info__item info__item--search'></a>
+          <a href='#' class='info__item info__item--notice'></a>
+          <a href='#' class='info__item info__item--profile'></a>
+        </div>
+        </div>
+      </div>
+    </header>
+    <main class='page-main'>
+      <section class='production'>
+        <div class='production__showcase showcase'>
+          <div class='showcase__wrap'>
+            <div class='showcase__chapters chapters'>
+              <ul class='chapters__list clear-ul'>
+                <li class='chapters__item'>О компании</li>
+                <li class='chapters__item chapters__item--service'>Услуги</li>
+                <li class='chapters__item chapters__item--active'>Продукция</li>
+              </ul>
+            </div>
+            <div class='showcase__subsections subsections'>
+              <div class='subsections__type type-product type-product--kitchen'>
+                <h3 class='type-product__heading'>Кухни</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Современные</li>
+                  <li class='type-product__item'>Классические</li>
+                  <li class='type-product__item'>Неоклассика</li>
+                  <li class='type-product__item'>KarMa by Karim Rashid</li>
+                  <li class='type-product__item'>Прованс</li>
+                  <li class='type-product__item'>Лофт</li>
+                  <li class='type-product__item'>Скандинавский стиль</li>
+                  <li class='type-product__item'>Хай-тек</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--cabinets'>
+                <h3 class='type-product__heading'>Шкафы</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Купе</li>
+                  <li class='type-product__item'>Распашные</li>
+                  <li class='type-product__item'>Гардеробные</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--bathrooms'>
+                <h3 class='type-product__heading'>Ванные</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Современные</li>
+                  <li class='type-product__item'>Классические</li>
+                  <li class='type-product__item'>Сантехника</li>
+                  <li class='type-product__item'>Оборудование</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--furniture'>
+                <h3 class='type-product__heading'>Мебель</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Для кухни</li>
+                  <li class='type-product__item'>Столовая группа</li>
+                  <li class='type-product__item'>Гостиная</li>
+                  <li class='type-product__item'>Спальня</li>
+                  <li class='type-product__item'>Для ванной</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--appliances'>
+                <h3 class='type-product__heading'>Бытовая техника</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Варочные панели</li>
+                  <li class='type-product__item'>Духовые шкафы</li>
+                  <li class='type-product__item'>Микроволновые печи</li>
+                  <li class='type-product__item'>Посудомоечные машины</li>
+                  <li class='type-product__item'>Холодильники</li>
+                  <li class='type-product__item'>Стиральные машины</li>
+                  <li class='type-product__item'>Кофемашины</li>
+                  <li class='type-product__item'>Компактные приборы</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--interior'>
+                <h3 class='type-product__heading'>Оформление <br>интерьера</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Вытяжки</li>
+                  <li class='type-product__item'>Мойки</li>
+                  <li class='type-product__item'>Смесители</li>
+                  <li class='type-product__item'>Посуда</li>
+                  <li class='type-product__item'>Настенные покрытия</li>
+                </ul>
+              </div>
+              <div class='subsections__type type-product type-product--b2b'>
+                <h3 class='type-product__heading'>B2B</h3>
+                <ul class='type-product__list clear-ul'>
+                  <li class='type-product__item'>Кухни</li>
+                  <li class='type-product__item'>Стойки ресепшн</li>
+                  <li class='type-product__item'>Барные стойки</li>
+                  <li class='type-product__item'>Ванные</li>
+                  <li class='type-product__item'>Туалетные комнаты</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='showcase__photos'>
+          <div class='showcase__post post'>
+            <img src='img/cupboard-mix.jpg' class='post__pic' alt='шкаф cupboard-mix'>
+            <div class='post__baner baner'>
+              <h3 class='baner__heading'>Шкаф-купе Mix</h3>
+              <p class='baner__text baner__text--showcase'>Дуэт дизайна и практичности сочетающиеся в одной модели</p>
+              <div class='baner__wrap'>
+                <p class='baner__price'>от 79 125₽</p>
+                <div class='baner__switcher'></div>
+              </div>
+            </div>
+          </div>
+          <div class='showcase__post post'>
+            <img src='img/model-nicolle.jpg' class='post__pic' alt='ванная nicolle'>
+            <div class='post__baner post__baner--nicolle baner'>
+              <h3 class='baner__heading'>Модель Nicolle</h3>
+              <p class='baner__text baner__text--showcase'>Изысканность классики в сочетании со строгостью линий модерна</p>
+              <div class='baner__wrap'>
+                <p class='baner__price'>от 22 400₽</p>
+                <div class='baner__switcher'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='search-block'>
+        <div class='search-block__wrap'>
+          <div class='search-block__line search-line'>
+            <form class='search-block__form' action='#' method='GET'>
+              <label class='search-line__label' for='search'>
+                <span class='visually-hidden'>Поиск каталогу</span>
+                <input type='search' class='search-line__input' id='search' placeholder='Поиск:'>
+              </label>
+            </form>
+            <button class='search-block__button button'>Найти</button>
+          </div>
+        </div>
+        <div class='search-block__popular popular'>
+          <div class='popular__requests requests'>
+            <h3 class='requests__head'>Популярные запросы</h3>
+            <ul class='requests__list clear-ul'>
+              <li class='requests__item'><b>Кухонные шкафы</b> Мария</li>
+              <li class='requests__item'><b>Кохонные шкафы</b> серии Микс</li>
+              <li class='requests__item'>Белые <b>кухонные шкафы</b></li>
+              <li class='requests__item'>Большие <b>кухонные шкафы</b></li>
+              <li class='requests__item'>Серия компактный <b>кухонных шкафов</b></li>
+              <li class='requests__item'><b>Кухонные шкафы</b> для студий</li>
+            </ul>
+          </div>
+          <div class='popular__merch merch'>
+            <h3 class='merch__head'>Продукция</h3>
+            <ul class='merch__list clear-ul'>
+              <li class='merch__item'>
+                <div class='merch__element element'>
+                  <div class='element__card'>
+                    <img src='img/kitchen-intuit-mini.jpg' class='element__pic' alt='кухня intuit'>
+                    <ul class='element__list clear-ul'>
+                      <li class='element__desc'>Кухня Intuit</li>
+                      <li class='element__desc'>цена от 175 806₽</li>
+                      <li class='element__desc element__desc--edge'>Богемная лаконичность и глянец модели Intuit достигаются отсутствием ручек </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='merch__item'>
+                <div class='merch__element element'>
+                  <div class='element__card'>
+                    <img src='img/kitchen-rimini-mini.jpg' class='element__pic' alt='кухня rimini'>
+                    <ul class='element__list clear-ul'>
+                      <li class='element__desc'>Кухня Rimini</li>
+                      <li class='element__desc'>цена от 204 982₽</li>
+                      <li class='element__desc element__desc--edge'>Богемная лаконичность и глянец модели Intuit достигаются отсутствием ручек </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class='catalog'>
+        <div class='catalog__wrap'>
+          <div class='catalog__block'>
+            <div class='catalog__preview preview'>
+              <a href='#' class='preview__logo'>
+                <img src='img/logo-desktop.png' alt='логотип сайта' class='preview__img'>
+              </a>
+              <button type='button' class='preview__button button'>Заказать проект</button>
+            </div>
+            <div class='page-main__products products'>
+              <ul class='products__list products__list--main clear-ul'>
+                <li class='products__item products__item--main products__item--selected'>Кухни</li>
+                <li class='products__item products__item--main'>Шкафы</li>
+                <li class='products__item products__item--main'>Ванные</li>
+              </ul>
+              <ul class='products__list products__list--desc clear-ul'>
+                <li class='products__item products__item--desc'>Современные <sup>43</sup>/</li>
+                <li class='products__item products__item--desc'>Классические <sup>23</sup>/</li>
+                <li class='products__item products__item--desc'>Неоклассика <sup>27</sup>/</li>
+                <li class='products__item products__item--desc'>KarMa by Karim Rashid <sup>15</sup>/</li>
+                <li class='products__item products__item--desc'>Прованс <sup>18</sup>/</li>
+                <li class='products__item products__item--desc'>Лофт <sup>14</sup>/</li>
+                <li class='products__item products__item--desc'>Скандинавский стиль <sup>12</sup>/</li>
+                <li class='products__item products__item--desc'>Хай-тек <sup>11</sup></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='portfolio'>
+        <div class="portfolio__wrap">
+          <div class='portfolio__slider slider'>
+            <div class='slider__switch'>
+              <div class='slider__pin'></div>
+              <div class='slider__pin'></div>
+              <div class='slider__pin'></div>
+            </div>
+            <div class='slider__baner baner'>
+              <div class='baner__logo'>
+                <img src='img/logo-bosch.png' alt='логотип bosch'>
+              </div>
+              <div class='baner__wrap'>
+                <p class='baner__text'>Посудомоечная машина в подарок</p>
+                <div class='baner__switcher'></div>
+              </div>
+            </div>
+          </div>
+          <div class='portfolio__option option'>
+            <h2 class='option__title'>Портфолио</h2>
+            <div class='option__wrap'>
+              <p class='option__text'>Выбери свой проект и дизайнера!</p>
+              <div class='option__switcher'></div>
+            </div>
+          </div>
+          <div class='portfolio__preview'></div>
+        </div>
+      </section>
+      <section class='desc-content'>
+        <div class='desc-content__wrapp'>
+          <h2 class='desc-content__title'>Создайте интерьер в едином стиле вместе с "Марией"</h2>
+          <p class='desc-content__text'>Мебельная фабрика "Мария" — меблировка "под ключ" в едином стиле по индивиальному проекту. Кухня, гостиная, ванная — в коллекциях новинок 2021 года!</p>
+          <div class='desc-content__gallery gallery'>
+            <div class='gallery__post'>
+              <div class='gallery__caption'>
+                <a href='#'>
+                  <img src='img/kitchen-jazz-loft.jpg' class='gallery__pic' alt='кухня jazz лофт'>
+                </a>
+                <h3 class='gallery__title gallery__title--jazz'>
+                  <a href='#' class='gallery__link'>Кухня Jazz</a>
+                </h3>
+                <p class='gallery__desc gallery__desc--jazz gallery__desc--jazz-loft'>
+                  <a href='#' class='gallery__link'>Кухня +</a>
+                  <a href='#' class='gallery__link'>техника +</a>
+                  <a href='#' class='gallery__link'>столовая группа</a>
+                </p>
+              </div>
+            </div>
+            <div class='gallery__post'>
+              <div class='gallery__caption'>
+                <a href='#'>
+                  <img src='img/kitchen-jazz-modern.jpg' class='gallery__pic' alt='кухня jazz модерн'>
+                </a>
+                <h3 class='gallery__title gallery__title--jazz gallery__title--jazz-modern'>
+                  <a href='#' class='gallery__link'>Кухня Jazz</a>
+                </h3>
+                <p class='gallery__desc gallery__desc--jazz gallery__desc--jazz-modern'>
+                  <a href='#' class='gallery__link'>Кухня +</a>
+                  <a href='#' class='gallery__link'>техника +</a>
+                  <a href='#' class='gallery__link'>столовая группа</a>
+                </p>
+              </div>
+            </div>
+            <div class='gallery__post'>
+              <div class='gallery__caption'>
+                <a href='#'>
+                  <img src='img/kitchen-white-loft.jpg' class='gallery__pic' alt='кухня white лофт'>
+                </a>
+                <h3 class='gallery__title'>
+                  <a href='#' class='gallery__link'>Белая кухня WHITE</a>
+                </h3>
+                <p class='gallery__desc gallery__desc--white'>
+                  <a href='#' class='gallery__link'>Кухня +</a>
+                  <a href='#' class='gallery__link'>техника +</a>
+                  <a href='#' class='gallery__link'>столовая группа</a>
+                </p>
+              </div>
+            </div>
+            <div class='gallery__post'>
+              <div class='gallery__caption'>
+                <a href='#'>
+                  <img src='img/kitchen-white-modern.jpg' class='gallery__pic' alt='кухня white модерн'>
+                </a>
+                <h3 class='gallery__title'>
+                  <a href='#' class='gallery__link'>Белая кухня WHITE</a>
+                </h3>
+                <p class='gallery__desc gallery__desc--white-modern'>
+                  <a href='#' class='gallery__link'>Кухня +</a>
+                  <a href='#' class='gallery__link'>техника +</a>
+                  <a href='#' class='gallery__link'>столовая группа</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <button type='button' class='desc-content__button button'>Показать ещё</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src='js/main.js'></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.header-first__basic {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.header-first__toggle {
+  position: absolute;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+
+  &--closed {
+    &::after {
+      content: '';
+      position: absolute;
+      width: 23px;
+      height: 16px;
+      background-image: url('../../img/icon-burger-closed.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      top: -7px;
+      left: -57px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.chapters {
+  margin-bottom: 38px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid @basic-border;
+}
+
+.chapters__list {
+  display: flex;
+  align-items: start;
+  padding-left: 4px;
+}
+
+.chapters__item {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-right: 70px;
+  position: relative;
+
+  &--service {
+    margin-right: 76px;
+  }
+
+  &--active {
+    &::after {
+      content: '';
+      position: absolute;
+      width: 136px;
+      height: 3px;
+      background-color: @basic-red;
+      bottom: -23px;
+      left: -9px;
+    }
+  }
+
+  &:hover,
+  &:active {
+    color:@basic-red;
+    cursor: pointer;
+  }
+}

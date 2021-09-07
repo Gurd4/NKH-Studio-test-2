@@ -1,0 +1,26 @@
+.site-list {
+  display: flex;
+  justify-content: start;
+  line-height: 14px;
+  font-weight: 600;
+}
+
+.site-list__item {
+  margin-right: 27px;
+  position: relative;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--dropdown::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 5px;
+    background-image: url('../../img/icon-down-small.svg');
+    background-repeat: no-repeat;
+    top: 5px;
+    right: -12px;
+  }
+}

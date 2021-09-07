@@ -1,0 +1,19 @@
+.main-nav {
+  display: flex;
+  width: 931px;
+  justify-content: flex-start;
+  position: relative;
+  align-items: center;
+  padding-top: 1px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 923px;
+    height: 1px;
+    left: 0;
+    top: 62px;
+    background-color: @basic-black;
+    opacity: 0.15;
+  }
+}
